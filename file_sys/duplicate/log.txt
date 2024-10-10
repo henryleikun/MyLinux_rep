@@ -1,0 +1,14 @@
+file.txt
+log.txt
+Makefile
+[0m[01;32mmyshell[0m
+myshell.c
+[01;32mredir[0m
+redirect.c
+file.txt
+log.txt
+Makefile
+[0m[01;32mmyshell[0m
+myshell.c
+[01;32mredir[0m
+redirect.c
