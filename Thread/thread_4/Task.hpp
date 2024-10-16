@@ -49,6 +49,10 @@ public:
       }
    }
 
+   void operator()(){
+      Run();
+   }
+
    std::string GetResult(){
       std::string ret = std::to_string(data1_);
       ret += op_;

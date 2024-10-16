@@ -52,30 +52,30 @@ int main(){
     srand(time(nullptr));
     // pthread_t c;//生产者线程
     // pthread_t p;//消费者线程
-    pthread_t c[3];//生产者线程
-    pthread_t p[5];//消费者线程
+    pthread_t p[3];//生产者线程
+    pthread_t c[5];//消费者线程
     
     //BlockQueue<int>* blockque = new BlockQueue<int>();
     BlockQueue<Task>* blockque = new BlockQueue<Task>();
 
     // pthread_create(&c,nullptr,Consumer,blockque);
     // pthread_create(&p,nullptr,Productor,blockque);
-    for(int i = 0; i < 3; i++){
+    for(int i = 0; i < 5; i++){
         pthread_create(c+i,nullptr,Consumer,blockque);
     }
 
-    for(int i = 0; i < 5; i++){
+    for(int i = 0; i < 3; i++){
         pthread_create(p+i,nullptr,Productor,blockque);
     }
 
 
     // pthread_join(c,nullptr);
     // pthread_join(p,nullptr);
-    for(int i = 0; i < 3; i++){
+    for(int i = 0; i < 5; i++){
         pthread_join(c[i],nullptr);
     }
 
-    for(int i = 0; i < 5; i++){
+    for(int i = 0; i < 3; i++){
         pthread_join(p[i],nullptr);
     }
 
