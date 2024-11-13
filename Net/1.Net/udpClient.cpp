@@ -49,6 +49,7 @@ int main(int argc,char* argv[]){
         
         //client先发送
         sendto(sockfd,outbuffer.c_str(),outbuffer.size(),0,(sockaddr*)&server,sizeof(server));
+        //cout << "after sending" << endl;
         
         //然后接收服务器发来的信息
         struct sockaddr_in recv;
