@@ -1,0 +1,4 @@
+/home/ubuntu/Myhome/Now_test/Multiplexing/Reactor/build/CMakeFiles/Reactor.dir
+/home/ubuntu/Myhome/Now_test/Multiplexing/Reactor/build/CMakeFiles/Client.dir
+/home/ubuntu/Myhome/Now_test/Multiplexing/Reactor/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/Myhome/Now_test/Multiplexing/Reactor/build/CMakeFiles/rebuild_cache.dir

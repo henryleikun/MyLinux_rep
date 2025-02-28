@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Client.dir/CalClient.cpp.o -o Client  -ljsoncpp 

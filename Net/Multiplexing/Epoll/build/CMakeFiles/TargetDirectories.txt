@@ -1,0 +1,3 @@
+/home/ubuntu/Myhome/Now_test/Multiplexing/Epoll/build/CMakeFiles/EpollServer.dir
+/home/ubuntu/Myhome/Now_test/Multiplexing/Epoll/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/Myhome/Now_test/Multiplexing/Epoll/build/CMakeFiles/rebuild_cache.dir
